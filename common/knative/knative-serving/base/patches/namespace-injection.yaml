@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: knative-serving
   labels:
-    istio-injection: enabled
+    istio.io/rev: cp-v115x.istio-system

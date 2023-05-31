@@ -4,4 +4,4 @@ metadata:
   name: kubeflow
   labels:
     control-plane: kubeflow
-    istio-injection: enabled
+    istio.io/rev: cp-v115x.istio-system
