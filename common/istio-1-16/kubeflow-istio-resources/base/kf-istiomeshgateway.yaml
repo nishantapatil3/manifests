@@ -4,14 +4,14 @@ metadata:
   annotations:
     banzaicloud.io/related-to: istio-system/cp-v115x
   labels:
-    app: kubeflow-imgw-app
+    app: istio-ingressgateway-app
     istio.io/rev: cp-v115x.istio-system
-  name: kubeflow-imgw
+  name: istio-ingressgateway
 spec:
   deployment:
     podMetadata:
       labels:
-        app: kubeflow-imgw-app
+        app: istio-ingressgateway-app
         istio: ingressgateway
   istioControlPlane:
     name: cp-v115x
